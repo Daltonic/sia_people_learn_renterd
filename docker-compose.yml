@@ -5,9 +5,9 @@ services:
     env_file:
       - .env
     ports:
-      - 9887:9880
-      - 9888:9881
-      - 9889:7070
+      - 9887:9980
+      - 9888:8080
+      - 9889:9981
     volumes:
       - ./data:/data
     restart: unless-stopped
